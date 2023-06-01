@@ -25,7 +25,7 @@ Our implementation also makes use of pybind11 library. Pybind11 is a lightweight
 
 $pip install pybind11 
 
-A Makefile is available and can be used to build and assemble the project. As it is already mentioned above the makefile produces two executables in ./bin/ The first executable is motifs which corresponds to /src/main.cpp. and the second is subann.so which corresponds to the library file that can be loaded and used in Python as an extension module.  Here are some basic commands used with make (in the directory containing the makefile): 
+A Makefile is available and can be used to build and assemble the project. The makefile produces two executables in ./bin/ The first executable is motifs which corresponds to /src/main.cpp. and the second is subann.so which corresponds to the library file that can be loaded and used in Python as an extension module.  Here are some basic commands used with make (in the directory containing the makefile): 
 
 $make: This is the primary command used to invoke make. When run without any arguments, it looks for a Makefile in the current directory and executes the default target specified in the Makefile. 
 
